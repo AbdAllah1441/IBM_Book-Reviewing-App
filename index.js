@@ -62,7 +62,6 @@ app.use("/books", function auth(req, res, next) {
     }
 });
 
-
 // Login endpoint
 app.post("/login", (req, res) => {
     const username = req.body.username;
